@@ -1,0 +1,1 @@
+export const cardColorArr = ['rgba(255,255,255,1)','rgba(44,152,255,1)','rgba(234,238,242,1)']  

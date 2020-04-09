@@ -11,7 +11,8 @@
 		}
 	],
 	"globalStyle": {
-		"navigationStyle": "custom"
+		"navigationStyle": "custom",
+			"backgroundColor":"#007AFF"
 	},
 	"tabBar": {
 		"color": "#7A7E83",
@@ -26,7 +27,11 @@
 			"pagePath": "pages/index/index",
 			"iconPath": "static/image/ico_today.png",
 			"selectedIconPath": "static/image/ico_today_s.png",
-			"text": "Today"
+			"text": "Today",
+			"backgroundColor":"#00ff00",
+			"style":{ 
+				"backgroundColor":"#00ff00"
+			}
 		}, {
 			"pagePath": "pages/reminder/reminder",
 			"iconPath": "static/image/ico_reminder.png",

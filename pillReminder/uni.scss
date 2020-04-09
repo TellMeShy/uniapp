@@ -39,46 +39,21 @@ $uni-border-color:#c8c7cc;
 /* 尺寸变量 */
 
 /* 文字尺寸 */
-$uni-font-size-sm:14px;
-$uni-font-size-base:17px;
-$uni-font-size-lg:28px;
+$uni-font-size-sm:28rpx;
+$uni-font-size-base:34rpx;
+$uni-font-size-lg:56rpx;
 
-/* 图片尺寸 */
-$uni-img-size-sm:40px;
-$uni-img-size-base:52px;
-$uni-img-size-lg:80px;
 
-/* Border Radius */
-$uni-border-radius-sm: 4rpx;
-$uni-border-radius-base: 6rpx;
-$uni-border-radius-lg: 12rpx;
-$uni-border-radius-circle: 50%;
-
-/* 水平间距 */
-$uni-spacing-row-sm: 10px;
-$uni-spacing-row-base: 20rpx;
-$uni-spacing-row-lg: 30rpx;
-
-/* 垂直间距 */
-$uni-spacing-col-sm: 8rpx;
-$uni-spacing-col-base: 16rpx;
-$uni-spacing-col-lg: 24rpx;
-
-/* 透明度 */
-$uni-opacity-disabled: 0.3; // 组件禁用态的透明度
 
 /* 文章场景相关 */
 $uni-color-title: #2C405A; // 文章标题颜色
-$uni-font-size-title:40rpx;
 $uni-color-subtitle: #555555; // 二级标题颜色
-$uni-font-size-subtitle:36rpx;
 $uni-color-paragraph: #3F536E; // 文章段落颜色
-$uni-font-size-paragraph:30rpx;
 
 .page_content{
-	min-height: 100vh;
+	min-height: 100%;
 	box-sizing: border-box;
-	padding: 0 16px;
+	padding: 0 32rpx;
 }
 .flex{
 	display: flex;
@@ -86,20 +61,27 @@ $uni-font-size-paragraph:30rpx;
 }
 .base_normal_szie{
 	font-size: $uni-font-size-base;
-	color: uni-color-title;
+	color: $uni-color-title;
 	font-family:AvenirNext-DemiBold,AvenirNext;
 	font-weight:600;
-	line-height: 23rpx;
+	line-height: 46rpx;
 }
 .lg_normal_szie{
 	font-size: $uni-font-size-lg;
-	color: uni-color-title;
+	color: $uni-color-title;
 	font-family:AvenirNext-DemiBold,AvenirNext;
 	font-weight:600;
-	line-height: 38px;
+	line-height: 76rpx;
+}
+.sm_sub_szie{
+	font-size: $uni-font-size-sm;
+	color: $uni-color-subtitle;
+	font-family:AvenirNext-DemiBold,AvenirNext;
+	font-weight:600;
+	line-height: 38rpx;
 }
 
 .ico_normal{
-	width: 24px;
-	height: 24px;
+	width: 48rpx;
+	height: 48rpx;
 }
