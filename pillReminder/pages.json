@@ -1,0 +1,42 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index"
+		},
+		{
+			"path": "pages/reminder/reminder"
+		},
+		{
+			"path": "pages/history/history"
+		}
+	],
+	"globalStyle": {
+		"navigationStyle": "custom"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#2C98FF",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"height": "50px",
+		"fontSize": "10px",
+		"iconWidth": "24px",
+		"spacing": "3px",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/image/ico_today.png",
+			"selectedIconPath": "static/image/ico_today_s.png",
+			"text": "Today"
+		}, {
+			"pagePath": "pages/reminder/reminder",
+			"iconPath": "static/image/ico_reminder.png",
+			"selectedIconPath": "static/image/ico_reminder_s.png",
+			"text": "Reminder"
+		}, {
+			"pagePath": "pages/history/history",
+			"iconPath": "static/image/ico_histroy.png",
+			"selectedIconPath": "static/image/ico_histroy_s.png",
+			"text": "History"
+		}]
+	}
+}
