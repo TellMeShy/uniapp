@@ -1,5 +1,7 @@
 <template>
-	<view class="itemCard flex" :style="{background:cardColorArr[item.type]}">
+	<view class="itemCard flex" 
+	:style="{background:cardColorArr[item.type]}"
+	 @click="showPop">
 		<image class="ico_normal"
 		 :src="src"
 		 mode="scaleToFill" ></image>
@@ -33,6 +35,11 @@
 			return {
 				cardColorArr,
 			};
+		},
+		methods: {
+			showPop(){
+				this.$emit('showPop',true)
+			}
 		},
 		computed:{
 			src(){

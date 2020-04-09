@@ -7,33 +7,42 @@
 			src="/static/image/ioc_add.png"
 			mode="scaleToFill" ></image>
 		</view>
-		<itemCard></itemCard>
+		<itemCard @showPop="showPop"></itemCard>
 		<view class="confrim">
 			<view class="confrim_tit base_normal_szie">Confrim</view>
 			<itemCard></itemCard>
 		</view>
+		<popUp :show="show"></popUp>
 	</view>
 </template>
 
 <script>
 	import itemCard from '../../components/itemCard.vue'
+	import popUp from '../../components/popUp.vue'
 	export default {
 		data() {
 			return {
-				title: 'Hello'
+				show: false,
+				
 			}
 		},
-		components:{itemCard},
+		components:{itemCard,popUp},
 		onLoad() {
 
 		},
 		methods: {
-
+			showPop(){
+				this.show = true
+			}
 		}
 	}
 </script>
 
 <style lang="scss" scoped>
+	page {
+	    background-color: $uni-bg-color-grey;
+	}
+
 	.today{
 		// background-color: $uni-bg-color-grey;
 		.today_date{
