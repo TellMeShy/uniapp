@@ -4,7 +4,7 @@
 		<view class="flex">
 			<view class="title lg_normal_szie">Today</view>
 			    <image class="ico_normal" mode="scaleToFill" src="../../static/image/ioc_add.png"
-			              @error="imageError"></image>
+			     ></image>
 		</view>
 	</view>
 </template>
@@ -29,7 +29,7 @@
 	.today{
 		background-color: $uni-bg-color-grey;
 		.today_date{
-			padding-top: 29rpx;
+			padding-top: 29px;
 		}
 		.flex{
 			.title{

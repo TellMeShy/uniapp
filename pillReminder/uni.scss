@@ -39,14 +39,14 @@ $uni-border-color:#c8c7cc;
 /* 尺寸变量 */
 
 /* 文字尺寸 */
-$uni-font-size-sm:14rpx;
-$uni-font-size-base:17rpx;
-$uni-font-size-lg:28rpx;
+$uni-font-size-sm:14px;
+$uni-font-size-base:17px;
+$uni-font-size-lg:28px;
 
 /* 图片尺寸 */
-$uni-img-size-sm:40rpx;
-$uni-img-size-base:52rpx;
-$uni-img-size-lg:80rpx;
+$uni-img-size-sm:40px;
+$uni-img-size-base:52px;
+$uni-img-size-lg:80px;
 
 /* Border Radius */
 $uni-border-radius-sm: 4rpx;
@@ -78,7 +78,7 @@ $uni-font-size-paragraph:30rpx;
 .page_content{
 	min-height: 100vh;
 	box-sizing: border-box;
-	padding: 0 16rpx;
+	padding: 0 16px;
 }
 .flex{
 	display: flex;
@@ -96,10 +96,10 @@ $uni-font-size-paragraph:30rpx;
 	color: uni-color-title;
 	font-family:AvenirNext-DemiBold,AvenirNext;
 	font-weight:600;
-	line-height: 38rpx;
+	line-height: 38px;
 }
 
 .ico_normal{
-	width: 24rpx;
-	height: 24rpx;
+	width: 24px;
+	height: 24px;
 }
